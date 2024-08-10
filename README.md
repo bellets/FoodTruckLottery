@@ -1,4 +1,4 @@
-# FoodTruckLottery
+# Food Truck Lottery
 
 ## Description
 
@@ -21,14 +21,14 @@ The Food Truck Lottery is a command-line application that allows users to filter
 
 1. Clone the repository or download the script.
 2. Install the required Python libraries:
-   pip install requests
+   `pip install requests`
 
 ## Examples
-Basic Run: Select a random food truck from the entire list.
-python foodTruckLottery.py --file Mobile_Food_Facility_Permit.csv --api_key YOUR_GOOGLE_MAPS_API_KEY
+**Basic Run**: Select a random food truck from the entire list.
+`python foodTruckLottery.py --file Mobile_Food_Facility_Permit.csv`
 
-Filter by Food Type: Select a random food truck that serves tacos.
-python foodTruckLottery.py --file Mobile_Food_Facility_Permit.csv --food_type tacos --api_key YOUR_GOOGLE_MAPS_API_KEY
+**Filter by Food Type**: Select a random food truck that serves tacos.
+`python foodTruckLottery.py --file Mobile_Food_Facility_Permit.csv --food_type tacos --api_key YOUR_GOOGLE_MAPS_API_KEY`
 
-Get a List of 10 Food Trucks for a Particular Cuisine: Get a list of 10 food trucks that serve sandwiches.
-python foodTruckLottery.py --file Mobile_Food_Facility_Permit.csv --food_type sandwiches --list --api_key YOUR_GOOGLE_MAPS_API_KEY
+**Get a List of 10 Food Trucks for a Particular Cuisine**: Get a list of 10 food trucks that serve Mexican food.
+`python foodTruckLottery.py --file Mobile_Food_Facility_Permit.csv --food_type Mexican --list --api_key YOUR_GOOGLE_MAPS_API_KEY`
